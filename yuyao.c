@@ -1,3 +1,6 @@
+//  ./yuyao直接运行
+//  抱歉只有基础要求,弱鸡哭泣.jpg 
+
 #define _GNU_SOURCE
 #include <sys/types.h>
 #include <sys/wait.h>
@@ -35,8 +38,10 @@ int container_main(void *args)
 
 
 
+
 int main(int args, char *argv[])
 {
+	
 	printf("程序开始\n");
 	
 	printf("Father[%d] - start A-New-bash!\n", getpid());
